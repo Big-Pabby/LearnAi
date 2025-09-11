@@ -1,0 +1,310 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --ambersecondarya-300: rgba(246, 181, 70, 1);
+  --ambersecondarya-50: rgba(254, 248, 237, 1);
+  --bright-blueprimaryb300: rgba(50, 168, 255, 1);
+  --bright-blueprimaryb400: rgba(35, 118, 179, 1);
+  --bright-blueprimaryb50: rgba(235, 246, 255, 1);
+  --bright-blueprimaryb500: rgba(31, 102, 156, 1);
+  --defaultgray-700: rgba(74, 85, 104, 1);
+  --defaultgray-900: rgba(26, 32, 44, 1);
+  --defaultshadeblack: rgba(0, 0, 0, 1);
+  --defaultshadewhite: rgba(255, 255, 255, 1);
+  --desktop-body-medium-font-family: "Switzer", Helvetica;
+  --desktop-body-medium-font-size: 18px;
+  --desktop-body-medium-font-style: normal;
+  --desktop-body-medium-font-weight: 500;
+  --desktop-body-medium-letter-spacing: -0.54px;
+  --desktop-body-medium-line-height: 25.200000762939453px;
+  --desktop-body-regular-font-family: "Switzer", Helvetica;
+  --desktop-body-regular-font-size: 18px;
+  --desktop-body-regular-font-style: normal;
+  --desktop-body-regular-font-weight: 400;
+  --desktop-body-regular-letter-spacing: -0.54px;
+  --desktop-body-regular-line-height: 25.200000762939453px;
+  --desktop-h1-bold-font-family: "Switzer", Helvetica;
+  --desktop-h1-bold-font-size: 54px;
+  --desktop-h1-bold-font-style: normal;
+  --desktop-h1-bold-font-weight: 700;
+  --desktop-h1-bold-letter-spacing: 1.62px;
+  --desktop-h1-bold-line-height: 64.80000305175781px;
+  --desktop-h3-bold-font-family: "Switzer", Helvetica;
+  --desktop-h3-bold-font-size: 37px;
+  --desktop-h3-bold-font-style: normal;
+  --desktop-h3-bold-font-weight: 700;
+  --desktop-h3-bold-letter-spacing: 1.1099999999999999px;
+  --desktop-h3-bold-line-height: 48.099998474121094px;
+  --desktop-h3-semibold-font-family: "Montserrat", Helvetica;
+  --desktop-h3-semibold-font-size: 37px;
+  --desktop-h3-semibold-font-style: normal;
+  --desktop-h3-semibold-font-weight: 600;
+  --desktop-h3-semibold-letter-spacing: 1.1099999999999999px;
+  --desktop-h3-semibold-line-height: 48.099998474121094px;
+  --desktop-h4-bold-font-family: "Switzer", Helvetica;
+  --desktop-h4-bold-font-size: 31px;
+  --desktop-h4-bold-font-style: normal;
+  --desktop-h4-bold-font-weight: 700;
+  --desktop-h4-bold-letter-spacing: 0.93px;
+  --desktop-h4-bold-line-height: 40.29999923706055px;
+  --desktop-h6-bold-font-family: "Switzer", Helvetica;
+  --desktop-h6-bold-font-size: 22px;
+  --desktop-h6-bold-font-style: normal;
+  --desktop-h6-bold-font-weight: 700;
+  --desktop-h6-bold-letter-spacing: 0.6599999999999998px;
+  --desktop-h6-bold-line-height: 28.600000381469727px;
+  --desktop-h6-semibold-font-family: "Montserrat", Helvetica;
+  --desktop-h6-semibold-font-size: 22px;
+  --desktop-h6-semibold-font-style: normal;
+  --desktop-h6-semibold-font-weight: 600;
+  --desktop-h6-semibold-letter-spacing: 0.6599999999999998px;
+  --desktop-h6-semibold-line-height: 28.600000381469727px;
+  --desktop-small-medium-font-family: "Switzer", Helvetica;
+  --desktop-small-medium-font-size: 15px;
+  --desktop-small-medium-font-style: normal;
+  --desktop-small-medium-font-weight: 500;
+  --desktop-small-medium-letter-spacing: -0.44999999999999996px;
+  --desktop-small-medium-line-height: 21px;
+  --desktop-small-regular-font-family: "Switzer", Helvetica;
+  --desktop-small-regular-font-size: 15px;
+  --desktop-small-regular-font-style: normal;
+  --desktop-small-regular-font-weight: 400;
+  --desktop-small-regular-letter-spacing: -0.44999999999999996px;
+  --desktop-small-regular-line-height: 21px;
+  --desktop-small-semibold-font-family: "Switzer", Helvetica;
+  --desktop-small-semibold-font-size: 15px;
+  --desktop-small-semibold-font-style: normal;
+  --desktop-small-semibold-font-weight: 400;
+  --desktop-small-semibold-letter-spacing: -0.44999999999999996px;
+  --desktop-small-semibold-line-height: 21px;
+  --grayg-0: rgba(255, 255, 255, 1);
+  --grayg-10: rgba(250, 250, 250, 1);
+  --grayg-100: rgba(117, 119, 120, 1);
+  --grayg-20: rgba(245, 245, 245, 1);
+  --grayg-30: rgba(235, 235, 235, 1);
+  --grayg-500: rgba(59, 61, 63, 1);
+  --grayg-700: rgba(28, 31, 33, 1);
+  --grayg-900: rgba(0, 3, 5, 1);
+  --neutralswhite: rgba(255, 255, 255, 1);
+  --primary-color-blueb50: rgba(231, 236, 244, 1);
+}
+
+:root {
+  --animate-spin: spin 1s linear infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 1s var(--animation-delay, 0s) ease forwards;
+}
+
+.animate-fade-up {
+  animation: fade-up 1s var(--animation-delay, 0s) ease forwards;
+}
+
+.animate-marquee {
+  animation: marquee var(--duration) infinite linear;
+}
+
+.animate-marquee-vertical {
+  animation: marquee-vertical var(--duration) linear infinite;
+}
+
+.animate-shimmer {
+  animation: shimmer 8s infinite;
+}
+
+.animate-spin {
+  animation: var(--animate-spin);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes image-glow {
+  0% {
+    opacity: 0;
+    animation-timing-function: cubic-bezier(0.74, 0.25, 0.76, 1);
+  }
+
+  10% {
+    opacity: 0.7;
+    animation-timing-function: cubic-bezier(0.12, 0.01, 0.08, 0.99);
+  }
+
+  to {
+    opacity: 0.4;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes shimmer {
+  0%,
+  90%,
+  to {
+    background-position: calc(-100% - var(--shimmer-width)) 0;
+  }
+
+  30%,
+  60% {
+    background-position: calc(100% + var(--shimmer-width)) 0;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0);
+  }
+
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+@keyframes marquee-vertical {
+  0% {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(calc(-100% - var(--gap)));
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Smooth transitions for all interactive elements */
+  button,
+  a,
+  [role="button"] {
+    @apply transition-all duration-200 ease-in-out;
+  }
+
+  /* Reduced motion preferences */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
