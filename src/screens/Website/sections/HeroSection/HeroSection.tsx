@@ -74,7 +74,7 @@ export const HeroSection = (): JSX.Element => {
               variants={staggerItem}
             >
               <motion.h1 
-                className="text-white md:text-[length:var(--desktop-h1-bold-font-size)] text-3xl tracking-[var(--desktop-h1-bold-letter-spacing)] md:leading-[var(--desktop-h1-bold-line-height)] font-desktop-h1-bold font-[number:var(--desktop-h1-bold-font-weight)] text-center w-full [font-style:var(--desktop-h1-bold-font-style)] "
+                className="text-white md:text-[length:var(--desktop-h1-bold-font-size)] text-4xl tracking-[var(--desktop-h1-bold-letter-spacing)] md:leading-[var(--desktop-h1-bold-line-height)] font-desktop-h1-bold font-[number:var(--desktop-h1-bold-font-weight)] text-center w-full [font-style:var(--desktop-h1-bold-font-style)] "
                 variants={fadeInUp}
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
@@ -157,7 +157,7 @@ export const HeroSection = (): JSX.Element => {
                 >
                   <div className="flex flex-col items-center w-full">
                     <motion.div 
-                      className="font-desktop-h3-semibold font-[number:var(--desktop-h3-semibold-font-weight)] text-white text-[length:var(--desktop-h3-semibold-font-size)] text-center tracking-[var(--desktop-h3-semibold-letter-spacing)] leading-[var(--desktop-h3-semibold-line-height)] w-full [font-style:var(--desktop-h3-semibold-font-style)]"
+                      className="font-desktop-h3-semibold font-[number:var(--desktop-h3-semibold-font-weight)] text-white md:text-[length:var(--desktop-h3-semibold-font-size)] text-4xl text-center tracking-[var(--desktop-h3-semibold-letter-spacing)] leading-[var(--desktop-h3-semibold-line-height)] w-full [font-style:var(--desktop-h3-semibold-font-style)]"
                       initial={{ scale: 0 }}
                       animate={{ scale: 1 }}
                       transition={{ delay: 1 + index * 0.1, type: "spring", stiffness: 200 }}
@@ -167,7 +167,7 @@ export const HeroSection = (): JSX.Element => {
                   </div>
 
                   <div className="flex flex-col items-center w-full">
-                    <div className="font-desktop-body-regular font-[number:var(--desktop-body-regular-font-weight)] text-grayg-30 text-[length:var(--desktop-body-regular-font-size)] text-center tracking-[var(--desktop-body-regular-letter-spacing)] leading-[var(--desktop-body-regular-line-height)] w-full [font-style:var(--desktop-body-regular-font-style)] whitespace-pre-line">
+                    <div className="font-desktop-body-regular font-[number:var(--desktop-body-regular-font-weight)] text-grayg-30 md:text-[length:var(--desktop-body-regular-font-size)] text-center tracking-[var(--desktop-body-regular-letter-spacing)] leading-[var(--desktop-body-regular-line-height)] w-full [font-style:var(--desktop-body-regular-font-style)] whitespace-pre-line">
                       {stat.description}
                     </div>
                   </div>
