@@ -74,7 +74,7 @@ export const HeroSection = (): JSX.Element => {
               variants={staggerItem}
             >
               <motion.h1 
-                className="text-white text-[length:var(--desktop-h1-bold-font-size)] tracking-[var(--desktop-h1-bold-letter-spacing)] leading-[var(--desktop-h1-bold-line-height)] font-desktop-h1-bold font-[number:var(--desktop-h1-bold-font-weight)] text-center w-full [font-style:var(--desktop-h1-bold-font-style)]"
+                className="text-white md:text-[length:var(--desktop-h1-bold-font-size)] text-3xl tracking-[var(--desktop-h1-bold-letter-spacing)] md:leading-[var(--desktop-h1-bold-line-height)] font-desktop-h1-bold font-[number:var(--desktop-h1-bold-font-weight)] text-center w-full [font-style:var(--desktop-h1-bold-font-style)] "
                 variants={fadeInUp}
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
@@ -82,7 +82,7 @@ export const HeroSection = (): JSX.Element => {
               </motion.h1>
 
               <motion.p 
-                className="font-desktop-body-regular font-[number:var(--desktop-body-regular-font-weight)] text-grayg-30 text-[length:var(--desktop-body-regular-font-size)] text-center tracking-[var(--desktop-body-regular-letter-spacing)] leading-[var(--desktop-body-regular-line-height)] w-full [font-style:var(--desktop-body-regular-font-style)]"
+                className="font-desktop-body-regular font-[number:var(--desktop-body-regular-font-weight)] text-grayg-30 md:text-[length:var(--desktop-body-regular-font-size)] text-center tracking-[var(--desktop-body-regular-letter-spacing)] leading-[var(--desktop-body-regular-line-height)] w-full [font-style:var(--desktop-body-regular-font-style)]"
                 variants={fadeInUp}
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
@@ -133,7 +133,7 @@ export const HeroSection = (): JSX.Element => {
           </motion.div>
 
           <motion.img
-            className="w-full md:h-[720px] object-contain"
+            className="w-full md:h-[720px] md:block hidden object-contain"
             alt="Frame"
             src="/frame-6.svg"
             variants={fadeInUp}
