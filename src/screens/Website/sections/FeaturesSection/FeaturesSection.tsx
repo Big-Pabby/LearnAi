@@ -52,7 +52,7 @@ export const FeaturesSection = (): JSX.Element => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section className="w-full bg-bright-blueprimaryb50 py-16">
+    <section id="features" className="w-full bg-bright-blueprimaryb50 py-16">
       <div className="max-w-7xl mx-auto px-8">
         <motion.div
           ref={ref}

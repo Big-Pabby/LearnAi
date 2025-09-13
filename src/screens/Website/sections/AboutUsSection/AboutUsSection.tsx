@@ -30,7 +30,7 @@ export const AboutUsSection = (): JSX.Element => {
   ];
 
   return (
-    <section className="w-full bg-white py-16">
+    <section  className="w-full bg-white py-16">
       <div className="flex flex-col max-w-[1200px] mx-auto px-8 items-center justify-center gap-16">
         <div className="flex flex-col max-w-[700px] items-center gap-4">
           <h3 className="text-ambersecondarya-300 text-[length:var(--desktop-h6-bold-font-size)] tracking-[var(--desktop-h6-bold-letter-spacing)] leading-[var(--desktop-h6-bold-line-height)] font-desktop-h6-bold font-[number:var(--desktop-h6-bold-font-weight)] text-center [font-style:var(--desktop-h6-bold-font-style)]">

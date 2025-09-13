@@ -2,7 +2,7 @@ import React from "react";
 
 export const MainContentSection = (): JSX.Element => {
   return (
-    <section className="w-full bg-ambersecondarya-50 py-16">
+    <section id="about" className="w-full bg-ambersecondarya-50 py-16">
       <div className="flex flex-col max-w-[1200px] mx-auto px-8 items-center justify-center gap-16">
         <header className="flex flex-col w-full max-w-[700px] items-center gap-4">
           <div className="font-desktop-h6-bold font-[number:var(--desktop-h6-bold-font-weight)] text-ambersecondarya-300 text-[length:var(--desktop-h6-bold-font-size)] text-center tracking-[var(--desktop-h6-bold-letter-spacing)] leading-[var(--desktop-h6-bold-line-height)] [font-style:var(--desktop-h6-bold-font-style)]">

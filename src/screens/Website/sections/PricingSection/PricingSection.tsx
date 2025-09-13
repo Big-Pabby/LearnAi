@@ -27,7 +27,7 @@ const schoolFeatures = [
 
 export const PricingSection = (): JSX.Element => {
   return (
-    <section className="flex flex-col items-start md:px-32 px-5 py-16 bg-white w-full">
+    <section id="pricing" className="flex flex-col items-start md:px-32 px-5 py-16 bg-white w-full">
       <div className="flex flex-col items-center justify-center gap-16 w-full">
         <div className="flex flex-col max-w-[700px] w-full items-center gap-4">
           <div className="font-desktop-h6-bold font-[number:var(--desktop-h6-bold-font-weight)] text-ambersecondarya-300 text-[length:var(--desktop-h6-bold-font-size)] text-center tracking-[var(--desktop-h6-bold-letter-spacing)] leading-[var(--desktop-h6-bold-line-height)] [font-style:var(--desktop-h6-bold-font-style)]">

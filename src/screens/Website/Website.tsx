@@ -6,7 +6,7 @@ import { FeaturesSection } from "./sections/FeaturesSection/FeaturesSection";
 import { FooterSection } from "./sections/FooterSection/FooterSection";
 import { HeroSection } from "./sections/HeroSection/HeroSection";
 import { MainContentSection } from "./sections/MainContentSection/MainContentSection";
-import { NavigationSection } from "./sections/NavigationSection/NavigationSection";
+import NavigationSection from "./sections/NavigationSection/NavigationSection";
 import { PricingSection } from "./sections/PricingSection/PricingSection";
 import { TestimonialsSection } from "./sections/TestimonialsSection/TestimonialsSection";
 import { WhyLearnAiSection } from "./sections/WhyLearnAiSection/WhyLearnAiSection";

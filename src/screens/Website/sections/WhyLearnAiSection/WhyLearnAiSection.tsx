@@ -42,7 +42,7 @@ const featureCards = [
 
 export const WhyLearnAiSection = (): JSX.Element => {
   return (
-    <section className="w-full bg-white py-16">
+    <section id="product" className="w-full bg-white py-16">
       <div className="max-w-[1184px] mx-auto px-4 flex flex-col items-center gap-16">
         <header className="flex flex-col w-full max-w-[700px] items-center gap-2">
           <h3 className="font-desktop-h6-bold font-[number:var(--desktop-h6-bold-font-weight)] text-bright-blueprimaryb500 text-[length:var(--desktop-h6-bold-font-size)] text-center tracking-[var(--desktop-h6-bold-letter-spacing)] leading-[var(--desktop-h6-bold-line-height)] [font-style:var(--desktop-h6-bold-font-style)]">
